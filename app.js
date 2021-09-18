@@ -8,7 +8,7 @@ let paragraphs = $("p + p").css( 'backgroundColor', 'red' );
 
 let wwwLi = $("li.www + li").css( 'backgroundColor', 'red' );
 
-let headerIs = $("h2 i").css( 'backgroundColor', 'yellow' );
+let headerIs = $("h2 i").css( 'backgroundColor', 'red' );
 
 let headerDirectChild = $("h2 > i").css( 'backgroundColor', 'red' );
 
