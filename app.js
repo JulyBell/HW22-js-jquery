@@ -1,0 +1,23 @@
+// task 3
+
+let testClassArray = $(".test").css( 'backgroundColor', 'red' );
+
+let testClassHeaders = $("h2.test").css( 'backgroundColor', 'red' );
+
+let paragraphs = $("p").next("p").css( 'backgroundColor', 'red' );
+
+let wwwLi = $("li.www").next("li").css( 'backgroundColor', 'red' );
+
+let headerIs = $("h2").find("i").css( 'backgroundColor', 'red' );
+
+let headerDirectChild = $("h2 > i").css( 'backgroundColor', 'red' );
+
+//task 4
+
+let headersExclTest = $("h2").not(".test").css( 'backgroundColor', 'red' );
+
+let notTestHeaders = $(":header").css( 'backgroundColor', 'red' );
+
+let headersAfterHeaders = $(":header").next(":header").css( 'backgroundColor', 'red' );
+
+let testHeadersAfterHeaders = $(":header.test").next(":header.test").css( 'backgroundColor', 'red' );
